@@ -12,7 +12,7 @@ ggplot(df_summary, aes(x = reorder(Product, -Complaint.Count), y = Complaint.Cou
 ```
 ![Rplot](https://github.com/user-attachments/assets/25514c6d-7047-40c2-865c-17d5753b3701)
 
-# Here's the Top 10
+  Here's the Top 10
 ```
 product_counts <- df %>%
   count(Product, sort = TRUE) %>%
