@@ -2,6 +2,7 @@
 
 This is an analysis of the ConsumerComplaints Dataset. This dataset consists of consumer complaints related to various financial products and services. Below are key insights that I have extracted:
 
+---
 ## Most Commonly Complained About Products and Issues
   These are the products and issues that the consumers complained about the most. This is valuable because it helps businesses focus on the key areas of consumer dissatisfaction.
 ```
@@ -27,7 +28,7 @@ ggplot(product_counts, aes(x = reorder(Product, n), y = n, fill = Product)) +
 ```
 ![MostComplainedAboutProducts](https://github.com/user-attachments/assets/aef5e5f7-0679-4ad3-9bb8-63ef8562dec6)
 
-
+---
 ## Trend Analysis of Complaints Over Time
   Here is a visualization of how complaints have occured over time. This is valuable to identify trends, spikes, and improvements.
 ```
@@ -43,6 +44,7 @@ ggplot(df_trend, aes(x = YearMonth, y = Complaints)) +
 ```
 ![ComplaintsOverTime](https://github.com/user-attachments/assets/288b9e64-75b2-4d89-8f5c-2673f3870b58)
 
+---
 ## Sentiment Analysis of Consumer Complaints
   Here is a sentiment analysis using Bing and NRC, this helps understand consumer emotions and their intensity.
 ```
@@ -77,6 +79,7 @@ ggplot(nrc_sentiment, aes(x = reorder(sentiment, n), y = n, fill = sentiment)) +
 ```
 ![SentimentAnalysis](https://github.com/user-attachments/assets/f8055560-9716-4015-9011-2c078e2f6ac1)
 
+---
 ## Distribution of Company Responses
   This graph analyzes the distribution of company responses which helps identify how well businesses handle consumer complaints. 
 ```
