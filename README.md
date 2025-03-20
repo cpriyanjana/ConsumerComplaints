@@ -39,7 +39,6 @@ df_summary <- df %>%
 
 ## Below are key insights that I have extracted:
 
----
 ### Most Commonly Complained About Products and Issues
   These are the products and issues that the consumers complained about the most. This is valuable because it helps businesses focus on the key areas of consumer dissatisfaction.
 ```
